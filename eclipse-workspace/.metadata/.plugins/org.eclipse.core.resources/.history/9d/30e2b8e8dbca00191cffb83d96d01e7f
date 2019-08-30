@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hist.javaedu.mapper.JwtMapper">
+
+<resultMap type="com.hist.javaedu.vo.JwtUser" id="JwtUser">
+</resultMap>
+
+	<select id="selectUsers" resultMap="JwtUser">
+		SELECT
+			ju.username,
+			ju.password
+		FROM public.jwt_user ju
+	</select>
+		
+</mapper>

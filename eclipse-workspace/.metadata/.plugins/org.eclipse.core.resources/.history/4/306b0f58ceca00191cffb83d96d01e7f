@@ -1,0 +1,5 @@
+package com.hist.demo.mapper;
+
+public interface JwtMapper {
+
+}

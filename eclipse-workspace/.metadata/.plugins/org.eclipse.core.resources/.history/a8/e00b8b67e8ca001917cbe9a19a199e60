@@ -1,0 +1,8 @@
+package service;
+
+@Component
+public class StoreService {
+	
+	@Autowired
+	StoreMapper storeMapper;
+}

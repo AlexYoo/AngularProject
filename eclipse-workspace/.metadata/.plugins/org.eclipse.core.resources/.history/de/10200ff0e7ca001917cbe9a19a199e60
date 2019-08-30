@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hist.demo.mapper.JwtMapper">
+
+<resultMap type="com.hist.demo.vo.JwtUser" id="JwtUser">
+</resultMap>
+
+	<insert id="insertStore">
+		insert into store
+		(
+		NAME,
+		REG_ID,
+		UPT_ID
+		)
+		values
+		(
+		#{NAME},
+		#{REG_ID},
+		#{UPT_ID}
+		)
+			
+	
+	
+	</insert>
+	
+</mapper>
