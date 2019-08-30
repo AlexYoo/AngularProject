@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hist.demo.mapper.StoreMapper">
+
+	<insert id="insertStore" parameterType="com.hist.demo.vo.Store">
+		INSERT INTO STORE 
+		(
+			NAME,
+			REG_ID,
+			UPT_ID
+		)
+		VALUES 
+		(
+			#{name},
+			#{regId},
+			#{uptId}
+		)
+	</insert>
+	
+	<update id="updatetStore" parameterType="com.hist.demo.vo.Store">
+		UPDATE STORE
+		SET ADDRESS = #{address}
+		WHERE ID = #{id}
+	</update>
+	
+		
+</mapper>

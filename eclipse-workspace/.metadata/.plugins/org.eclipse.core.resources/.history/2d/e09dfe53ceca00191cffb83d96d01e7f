@@ -1,0 +1,5 @@
+package com.hist.demo.vo;
+
+public class JwtUser {
+
+}

@@ -1,0 +1,12 @@
+1567138146265	Delete element
+1567138597974	Rename resource 'JmtController.java'
+1567143174960	Copy folder
+1567143194500	Rename resource 'JwtMapper.xml'
+1567143332941	Copy compilation unit
+1567143398626	Copy compilation unit
+1567145939009	Copy compilation unit
+1567147460332	Encapsulate field 'address'
+1567149499989	Encapsulate field 'userId'
+1567149506270	Encapsulate field 'storeId'
+1567149800917	Encapsulate field 'id'
+1567150454333	Encapsulate field 'rating'

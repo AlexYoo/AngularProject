@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ser.std.SqlDateSerializer"/>
+<fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionFactoryBean"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.support.PathMatchingResourcePatternResolver"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.PlatformTransactionManager"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DataSourceTransactionManager"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

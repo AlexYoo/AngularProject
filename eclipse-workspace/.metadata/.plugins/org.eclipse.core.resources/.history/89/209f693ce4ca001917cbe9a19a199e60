@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hist.demo.mapper.JwtMapper">
+
+<resultMap type="com.hist.demo.vo.JwtUser" id="JwtUser">
+</resultMap>
+
+	<select id="selectUsers" resultMap="JwtUser">
+		SELECT
+			ju.username,
+			ju.password
+		FROM jwt_user ju
+	</select>
+	
+	<select id="selectUsers" resultMap="JwtUser">
+		SELECT
+			ju.username,
+			ju.password
+		FROM jwt_user ju
+		WHERE ju.username like concat('%', #{name}, '%')
+	</select>
+	
+	
+	
+	
+</mapper>
